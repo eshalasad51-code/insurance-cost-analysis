@@ -19,19 +19,7 @@ Adding two features based on patterns found during exploration raised R² from 0
 
 **What the improved model shows:**
 - Smoking adds about \$13,300 to annual charges, holding other factors constant.
-- Smokers with a BMI of 30+ pa## Model Results
-| Model | R² | Avg Error |
-|---|---|---|
-| Baseline linear regression | 0.784 | \$4,181 |
-| Improved (obese-smoker + age² features) | 0.876 | \$2,420 |
-
-Adding two features based on patterns found during exploration raised R² from 0.78 to 0.88 and cut average prediction error by 42%.
-
-**What the improved model shows:**
-- Smoking adds about \$13,300 to annual charges, holding other factors constant.
 - Smokers with a BMI of 30+ pay an additional \$19,800 on top of that, about \$33,100 more than a comparable non-smoker.
-- Once this interaction is included, BMI alone has little effect (about \$50 per point), meaning obesity mainly increases costs in combination with smoking.
-- Each child adds about \$600; sex and region have minor effects.y an additional \$19,800 on top of that, about \$33,100 more than a comparable non-smoker.
 - Once this interaction is included, BMI alone has little effect (about \$50 per point), meaning obesity mainly increases costs in combination with smoking.
 - Each child adds about \$600; sex and region have minor effects.
 
